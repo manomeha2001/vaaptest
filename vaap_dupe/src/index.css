@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+ 
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scrollbar-width: none; /* Also needed to disable scrollbar Firefox */
+            -ms-overflow-style: none;  /* Disable scrollbar IE 10+ */
+            overflow-y: scroll;
+}
+
+@-moz-document url-prefix() { /* Disable scrollbar Firefox */
+  html{
+    scrollbar-width: none;
+  }
+}
+
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header-nav{
+  /* height: 100%; */
+  width: 100%;
+  margin: 0;
+  background-image: url("./assets/22476.png"); 
+  background-color: #31A3DD; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  /* position: absolute; top: 0; left: 0; */
+
+}
+
+/* .slides .slick-prev,
+.slides .slick-next {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+} */
+
+/* .slides .slick-prev,
+.slides .slick-next {
+  position: absolute;
+  top: 50%;
+  z-index:1;
+} */
+
+/* .slides .slick-prev {
+  margin-left: 15%;
+}
+
+.slides .slick-next {
+  right: 15%;
+}
+
+.slides .slick-dots{
+  margin-bottom: -25px;
+  bottom: -100px;
+} */
+
+
+
+.wrapper{
+  display: flex;
+  align-items: center;
+  margin-top: 4vh;
+  /* transform: translate(-50%, -50%); */
+}
+
+.a{
+  display: block;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  width: wrap-content;
+  height: wrap-content;
+  line-height: 5vh;
+  /* font-size: 18px; */
+  /* font-family: sans-serif; */
+  text-decoration: none;
+  color:white;
+  background-color: #006ad0;
+  
+  
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+  color: white;
+}
+
+.a span{
+  position: relative;
+  z-index: 2;
+  color: white;
+}
+
+.a:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  color: white;
+  background: #073f7a;
+  transition: all .35s;
+}
+
+.a:hover{
+  color: #fff;
+}
+
+.a:hover:after{
+ 
+  width: 100%;
+  color: #fff;
+}
+
+/* .image:hover{
+  position: relative;
+  animation: mymove 2s 2;
+}
+
+@keyframes mymove {
+  from {border:0px solid black }
+  to {border:3px solid black}
+} */
+
+/* .image {
+  --borderWidth: 3px;
+  background: #1D1F20;
+  position: relative;
+  border-radius: var(--borderWidth);
+}
+
+.image:hover::after {
+  content: '';
+  position: absolute;
+  top: calc(-1 * var(--borderWidth));
+  left: calc(-1 * var(--borderWidth));
+  height: calc(100% + var(--borderWidth) * 2);
+  width: calc(100% + var(--borderWidth) * 2);
+  background: linear-gradient(60deg,#00ffde, #007dff,#00ffeb,#001bff,#00ffd1, #090979,#064ea6,#00d4ff,#00d4ff,#00f5ff);
+  /* background: linear-gradient(60deg, #020024, #090979,#00d4ff); */
+  /* border-radius: calc(2 * var(--borderWidth));
+  z-index: -1;
+  animation: animatedgradient 3s ease alternate infinite;
+  background-size: 400% 400%;
+}
+
+
+@keyframes animatedgradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+ */ 
+
+ @keyframes bg {
+  0% {
+      background-size:    0 3px,
+                          3px 0,
+                          0 3px,
+                          3px 0;
+  }
+  25% {
+      background-size:    100% 3px,
+                          3px 0,
+                          0 3px,
+                          3px 0;
+  }
+  50% {
+      background-size:    100% 3px,
+                          3px 100%,
+                          0 3px,
+                          3px 0;
+  }
+  75% {
+      background-size:    100% 3px,
+                          3px 100%,
+                          100% 3px,
+                          3px 0;
+  }
+  100% {
+      background-size:    100% 3px,
+                          3px 100%,
+                          100% 3px,
+                          3px 100%;
+  }
+}
+
+.image{
+  transition: transform 0.8s;
+  will-change: transform;
+
+}
+
+.image:hover {
+  background-repeat: no-repeat;
+  background-image:   linear-gradient(to right, #006ad0 100%, #006ad0 100%),
+                      linear-gradient(to bottom, #006ad0 100%, #006ad0 100%),
+                      linear-gradient(to right, #006ad0 100%, #006ad0 100%),
+                      linear-gradient(to bottom, #006ad0 100%, #006ad0 100%);
+  background-size:    100% 3px,
+                      3px 100%,
+                      100% 3px,
+                      3px 100%;
+  background-position:    0 0,
+                          100% 0,
+                          100% 100%,
+                          0 100%;
+  transform: translateY(-3vh);                        
+  animation-play-state: running;
+  animation: bg 0.5s cubic-bezier(0.19, 1, 0.22, 1) 1;
+  z-index: 100;
+  box-shadow: -2px -1px 15px grey ;
+}
+
+
+.container {
+  display: flex;
+  overflow-x: scroll;
+  width: 100%;
+  padding: 40px 2vw;
+  /* margin-top: 60px; */
+  margin-right: 30px;
+  -ms-overflow-style: none;
+  scrollbar-color: transparent transparent;
+  
+}
+
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(60,60,60);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #006ad0;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+
+/* 
+.container::-webkit-scrollbar {
+  width: 12px;              
+}
+
+.container::-webkit-scrollbar-track {
+  background: orange;       
+}
+
+.container::-webkit-scrollbar-thumb {
+  background-color: blue;   
+  border-radius: 20px;      
+  border: 3px solid orange; 
+} */
+.maindiv{
+  overflow: '-moz-scrollbars-none';
+  scrollbar-width: none; 
+}
+
+.card {
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  /* border-radius: 10px; */
+  margin-left: 0.5vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  
+}
+
+
+
+
+.anidiv{
+  opacity: 0;
+  transform: translateY(-1.9vh);
+  transition: opacity 0.5s,  transform 0.5s;
+  /* will-change: transform; */
+}
+
+.anidiv:hover{
+   opacity: 0.9;
+   transform: translateY(0);
+   /* height: 100%; */
+
+}
+
+@keyframes arrow {
+  0% {
+    transform: translateX(0vw);
+  }
+  25% {
+    transform: translateX(+0.25vw);
+  }
+  50% {
+    transform: translateX(+0.5vw);
+  }
+  75% {
+    transform: translateX(+0.25vw);
+  }
+  100% {
+    transform: translateX(0vw);
+  }
+}
+
+.subdiv{
+  animation-play-state: running;
+  animation: arrow 0.5s infinite;
+}

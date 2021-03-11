@@ -1,0 +1,30 @@
+ {
+    key: 1,
+    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore veniam magnam repellat explicabo voluptatem facere. Incidunt ex voluptatum esse amet.',
+    imag: image
+
+  },
+  {
+    key: 2,
+    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore veniam magnam repellat explicabo voluptatem facere. Incidunt ex voluptatum esse amet.',
+    imag: image1
+
+  },
+  {
+    key: 3,
+    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore veniam magnam repellat explicabo voluptatem facere. Incidunt ex voluptatum esse amet.',
+    imag: image
+
+  },
+  {
+    key: 4,
+    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore veniam magnam repellat explicabo voluptatem facere. Incidunt ex voluptatum esse amet.',
+    imag: image1
+
+  },
+  {
+    key: 5,
+    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore veniam magnam repellat explicabo voluptatem facere. Incidunt ex voluptatum esse amet.',
+    imag: image
+
+  }     

@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f0e81ae0.chunk.css",
+    "main.js": "/static/js/main.a9de3c05.chunk.js",
+    "main.js.map": "/static/js/main.a9de3c05.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.60c96889.js",
+    "runtime-main.js.map": "/static/js/runtime-main.60c96889.js.map",
+    "static/css/2.19627560.chunk.css": "/static/css/2.19627560.chunk.css",
+    "static/js/2.923bffef.chunk.js": "/static/js/2.923bffef.chunk.js",
+    "static/js/2.923bffef.chunk.js.map": "/static/js/2.923bffef.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.19627560.chunk.css.map": "/static/css/2.19627560.chunk.css.map",
+    "static/css/main.f0e81ae0.chunk.css.map": "/static/css/main.f0e81ae0.chunk.css.map",
+    "static/js/2.923bffef.chunk.js.LICENSE.txt": "/static/js/2.923bffef.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/22476.460a87cd.png",
+    "static/media/AboutBg1.8589b6b7.png": "/static/media/AboutBg1.8589b6b7.png",
+    "static/media/AboutBg2.22655cd0.png": "/static/media/AboutBg2.22655cd0.png",
+    "static/media/AboutBg3.75bf7eb4.png": "/static/media/AboutBg3.75bf7eb4.png",
+    "static/media/Carouselimage1.283da300.jpg": "/static/media/Carouselimage1.283da300.jpg",
+    "static/media/Carouselimage2.744be0de.jpg": "/static/media/Carouselimage2.744be0de.jpg",
+    "static/media/Carouselimage3.43d13d90.jpg": "/static/media/Carouselimage3.43d13d90.jpg",
+    "static/media/Ener.9951d184.png": "/static/media/Ener.9951d184.png",
+    "static/media/Message.86a046f1.png": "/static/media/Message.86a046f1.png",
+    "static/media/Mott.d0f78b26.png": "/static/media/Mott.d0f78b26.png",
+    "static/media/Ramboll.f4faa4c2.png": "/static/media/Ramboll.f4faa4c2.png",
+    "static/media/SystemStudy.ef006955.png": "/static/media/SystemStudy.ef006955.png",
+    "static/media/backgroundsea.e8625ba8.png": "/static/media/backgroundsea.e8625ba8.png",
+    "static/media/des.6bfe8d50.png": "/static/media/des.6bfe8d50.png",
+    "static/media/slick-theme.css": "/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.60c96889.js",
+    "static/css/2.19627560.chunk.css",
+    "static/js/2.923bffef.chunk.js",
+    "static/css/main.f0e81ae0.chunk.css",
+    "static/js/main.a9de3c05.chunk.js"
+  ]
+}
